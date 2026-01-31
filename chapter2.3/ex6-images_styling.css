@@ -1,0 +1,59 @@
+.city {
+    width: 400px;
+    height: auto;
+}
+
+.img-rounded {
+    border-radius: 10px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.thumbnail {
+    width: 150px;
+    height: auto;
+    /* border: 2px double rgb(177, 174,174); */
+    border-width: 15px;
+    border-style: double;
+    border-color: black;
+}
+.thumbnail:hover{
+    box-shadow: 0px 0px 2px 2px red;
+    width: 155px;
+    height: auto;
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    border: 2px solid red;
+    box-shadow: 0 0 2px 2px blue;
+    margin-left: auto;  /* ekswterika */
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 3px;      /*ekswterika   kena*/
+    /* padding: 10px 20px;  10panw katw, 20 left rigth */
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.london-bg {
+    height: 800px;
+    background-color: aquamarine;
+    background-image: url(../img/london.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}

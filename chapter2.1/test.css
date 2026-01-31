@@ -1,0 +1,41 @@
+body {
+    background-color: antiquewhite;
+}
+
+p, li{
+    color: brown;
+}
+
+.logo {
+    border: 3px, solid black;
+    width: 200px;
+}
+
+img.logo {
+    height: auto;
+}
+
+p.logo {
+    color: red;
+}
+
+ul > li {
+    color: aqua;
+}
+
+h2 + p {
+    color: blue;
+}
+
+.mylink:link {
+    text-decoration: none;
+    color: black;
+}
+
+.mylink:hover{
+    background-color: green;
+}
+
+.mylink:visited{
+    color: blueviolet;
+}

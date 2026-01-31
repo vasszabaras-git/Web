@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../OneDrive - Regnology Germany GmbH/Desktop/CV1"
+		},
+		{
+			"path": "../../OneDrive - Regnology Germany GmbH/Desktop/testWeb"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WebCodingFactory"
+	}
+}

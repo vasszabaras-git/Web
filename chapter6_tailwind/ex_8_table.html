@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- default table -->
+    <table class="table-auto border border-red-800 w-full">
+        <thead class="border border-red-800 px-4 py-2">
+            <tr>
+                <th>Surname</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border border-red-800 px-4 py-2">Surname 1</td>
+                <td class="border border-red-800 px-4 py-2">Name 1</td>
+            </tr>
+             <tr>
+                <td class="border border-red-800 px-4 py-2">Surname 2</td>
+                <td class="border border-red-800 px-4 py-2">Name 2</td>
+            </tr>
+            <tr>
+                <td class="border border-red-800 px-4 py-2">Surname 3</td>
+                <td class="border border-red-800 px-4 py-2">Name 3</td>
+            </tr>
+              
+        </tbody>
+    </table>
+
+    <!-- Striped table -->
+     <table class="table-auto border border-red-800 w-full mb-4">
+        <thead class="border border-red-800 px-4 py-2">
+            <tr>
+                <th>Surname</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd:bg-gray-200 even:bg-white">
+                <td class="border border-red-800 px-4 py-2">Surname 1</td>
+                <td class="border border-red-800 px-4 py-2">Name 1</td>
+            </tr>
+             <tr class="odd:bg-gray-200 even:bg-white">
+                <td class="border border-red-800 px-4 py-2">Surname 2</td>
+                <td class="border border-red-800 px-4 py-2">Name 2</td>
+            </tr>
+            <tr class="odd:bg-gray-200 even:bg-white">
+                <td class="border border-red-800 px-4 py-2">Surname 3</td>
+                <td class="border border-red-800 px-4 py-2">Name 3</td>
+            </tr>  
+        </tbody>
+    </table>
+
+
+
+     <!-- Striped table and Hover -->
+     <table class="table-auto border border-red-800 w-full">
+        <thead class="border border-red-800 px-4 py-2">
+            <tr>
+                <th>Surname</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd:bg-gray-200 even:bg-white hover:bg-blue-300">
+                <td class="border border-red-800 px-4 py-2">Surname 1</td>
+                <td class="border border-red-800 px-4 py-2">Name 1</td>
+            </tr>
+             <tr class="odd:bg-gray-200 even:bg-white  hover:bg-blue-300">
+                <td class="border border-red-800 px-4 py-2">Surname 2</td>
+                <td class="border border-red-800 px-4 py-2">Name 2</td>
+            </tr>
+            <tr class="odd:bg-gray-200 even:bg-white  hover:bg-blue-300">
+                <td class="border border-red-800 px-4 py-2">Surname 3</td>
+                <td class="border border-red-800 px-4 py-2">Name 3</td>
+            </tr>  
+        </tbody>
+    </table>
+
+</body>
+</html>

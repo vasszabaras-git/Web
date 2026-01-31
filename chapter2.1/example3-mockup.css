@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(182, 222, 194);
+}
+/* containers */
+.container {
+    border: 2px solid black;
+    width: 50%;
+}
+
+.container-fluid {
+    border: 2px solid black;
+    width: 90%;
+}
+
+.aueb-text {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* background colors */
+.bg-dark {
+    background-color: rgb(184, 6, 6);
+}
+
+.bg-primary {
+    background-color: white;
+}
+
+/* text styling */
+.text-white{
+    color: greenyellow;
+}
+
+.icon-small {
+    width: 150px;
+    height: auto;
+}
+
+/* list styling */
+.courses-wrapper > :first-child{
+    font-weight: bold;
+    color: black;
+}
+
+.courses-wrapper > :last-child{
+    font-weight: bold;
+    color: orange;
+}
+
+.courses-list > :nth-child(odd){
+    color: greenyellow;
+}
+
+
+
+.courses-list > :nth-child(even){
+    color: lightskyblue;
+}

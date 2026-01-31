@@ -1,0 +1,77 @@
+body {
+background-color: lightgray;
+}
+
+p, li{           
+    color: red;
+}
+
+
+h1{
+    color: greenyellow;
+
+}
+
+.aueb-logo {
+    border: 10px solid black;
+    width: 400px;
+}
+/* on top of the other for the images only */
+img.aueb-logo{
+    height: auto;
+}
+
+p.aueb-logo{
+    color: blue;
+}
+
+ul > li {
+    color: blue ;
+}
+
+
+/* after h1, the very next paragraph should be orange */
+h1 + p {
+    color: orange;
+}
+
+/* change the link */
+.link-cf: link {
+    text-decoration: none;
+    color: black ;
+
+}
+
+.link-cf:visited{
+    color: green;
+}
+
+.link-cf:hover{
+    background-color: blue;
+}
+
+.link-cf:focus{
+    outline: none;
+    background-color: yellow;
+}
+
+.link-cf:active{
+    background-color: chocolate;
+}
+/* 
+#auebLogo {
+    color: aliceblue;
+} */
+
+.border-green {
+    border: 1px solid green;
+}
+
+.border-green2 {
+    border: 2px solid green; 
+}
+
+
+.text-blue {
+    color:blue;
+}

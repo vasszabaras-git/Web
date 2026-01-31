@@ -1,0 +1,31 @@
+.container {               /*    oxi ston container sta paidia tou */
+    display: flex;
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    /* horizontal alignmnet */
+    justify-content: flex-start;  
+    justify-content: flex-end; 
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;     
+    
+    /* vertical alignmnet */
+    align-items: start;
+    align-items: center;
+    align-items: end;
+    align-items: stretch;
+}
+
+
+div[class^="box"] {     /* starts with */
+width: 200px;
+height: 200px;  /* gia to stretch de to thelei auto*/
+margin: 0 5px;
+background-color: lightblue;
+border: 1px solid black;
+
+}

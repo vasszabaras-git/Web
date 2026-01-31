@@ -1,0 +1,9 @@
+.header {
+    height: 200px;
+    border: 2px solid black;
+}
+
+.aueb-img > img { /*from teh class aueb; take the img type*/
+    
+    height: calc(90vh - 200px);
+}

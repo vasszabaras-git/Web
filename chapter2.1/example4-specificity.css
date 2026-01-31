@@ -1,0 +1,21 @@
+/* !important > inline(orange) > id > class > type*/
+
+#cfText{
+    color: green;
+}
+
+p {
+    color: red;
+}
+/* 
+.cf-text{
+    color: brown!important;
+} */
+
+
+p {
+    color: blue;
+}
+
+
+/* το convention είναι camelCase στα ids και kebab-case στα classes */

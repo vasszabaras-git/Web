@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{         /*  vale sta paidia s to flex*/ 
+    display: flex;
+    background-color: #762124;
+}
+
+
+.nav{
+    width: 800px;
+    background-color: aqua;
+}
+
+.nav > ul {        /*ston ameso apogono*/
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    height: 120px;
+    
+}

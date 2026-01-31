@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>My First Forms</h2>
+    
+    <form >
+        <!-- ta div mpainoun to ena katw apo to allo -->
+        <!-- radiobuttons exoun idio onoma opote anagastika mono ena epilegetai-->
+        <div>
+           <input type="radio" name="gender" value="male" id="fldMale" checked> 
+            <label for="fldMale"> Man </label>  
+               <br>
+            <input type="radio" name="gender" value="female" id="fldFemale">
+            <label for="fldFemale"> Woman</label>
+        </div>
+        <!-- checkbox diaforetiko onoma g na epilegontai ola-->
+        
+        <div>
+            <input type="checkbox" name="vehicle1" value="bike" id="fldBike" checked>
+            <label for="fldbike"> Bicycle</label>
+            <br>
+            <input type="checkbox" name="vehicle2" value="moto" id="fldMoto">
+            <label for="fldMoto"> Motorcycle</label> 
+            <br>
+            <input type="checkbox" name="vehicle3" value="car" id="fldCar">
+            <label for="fldCar"> Car</label> 
+        </div>
+
+        <!-- dropdown -->
+        <!-- disabled selected  -->
+         <div>
+            <label for="fldNation">Nationality</label>
+            <select name="nation" id="fldNation">
+                <option value="" disabled selected>choose your nationality</option>
+                <option value="greek">Greece</option>
+                <option value="dutch">Netherlands</option>
+                <option value="english">England</option>
+                <option value="spanish">Spain</option>
+            </select>
+         </div>
+
+         <!-- text -->
+          <br>
+        <div>
+            <fieldset>
+                <legend>Persomal Details</legend>
+                <div>
+                    <label for="fldFirstname">Name</label>
+                    <input type="text" name="firstname" id="fldFirstname" placeholder="give a name" minlength="5" maxlength="15" required>
+                </div>
+                <div>
+                    <label for="fldWorkexper">years of experience</label>
+                    <input type="number" name = "work experience" id="fldWorkexper" min="3", max="20">
+                </div>
+                <div>
+                    <label for="fldEmail">email</label>
+                    <input type="email" name = "email" id="fldEmail">
+                </div>
+            </fieldset>
+        </div>
+
+        <div>
+            <label for="fldMessage">Write your message</label>
+            <textarea name="message" id="fldMessage" rows="10" cols="30"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="submission">
+            <input type="reset" value="clear">
+        </div>
+
+    </form>
+</body>
+</html>

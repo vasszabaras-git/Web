@@ -1,0 +1,9 @@
+p {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll;  to scroll appears always */
+    overflow: auto;
+}
